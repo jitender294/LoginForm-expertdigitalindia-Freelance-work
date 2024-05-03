@@ -1,0 +1,52 @@
+/*! CSS Used from: https://expertdigitalindia.com/css/bootstrap.min.css */
+@media print{
+    *,::after,::before{text-shadow:none!important;box-shadow:none!important;}
+    }
+    *,::after,::before{box-sizing:border-box;}
+    button,input:not([type=range]),textarea{-ms-touch-action:manipulation;touch-action:manipulation;}
+    button{border-radius:0;}
+    button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color;}
+    button,input,textarea{margin:0;font-family:inherit;font-size:inherit;line-height:inherit;}
+    button,input{overflow:visible;}
+    button{text-transform:none;}
+    [type=submit],button{-webkit-appearance:button;}
+    textarea{overflow:auto;resize:vertical;}
+    .row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;}
+    .col-lg-12,.col-lg-6{position:relative;width:100%;min-height:1px;padding-right:15px;padding-left:15px;}
+    @media (min-width:992px){
+    .col-lg-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%;}
+    .col-lg-12{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;}
+    }
+    .form-control{display:block;width:100%;padding:.375rem .75rem;font-size:1rem;line-height:1.5;color:#495057;background-color:#fff;background-image:none;background-clip:padding-box;border:1px solid #ced4da;border-radius:.25rem;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;}
+    .form-control:focus{color:#495057;background-color:#fff;border-color:#80bdff;outline:0;box-shadow:0 0 0 .2rem rgba(0,123,255,.25);}
+    .form-control::placeholder{color:#868e96;opacity:1;}
+    .form-control:disabled{background-color:#e9ecef;opacity:1;}
+    .form-group{margin-bottom:1rem;}
+    .btn{display:inline-block;font-weight:400;text-align:center;white-space:nowrap;vertical-align:middle;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border:1px solid transparent;padding:.375rem .75rem;font-size:1rem;line-height:1.5;border-radius:.25rem;transition:background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;}
+    .btn:focus,.btn:hover{text-decoration:none;}
+    .btn:focus{outline:0;box-shadow:0 0 0 .2rem rgba(0,123,255,.25);}
+    .btn:disabled{opacity:.65;}
+    .btn:not([disabled]):not(.disabled):active{background-image:none;}
+    .btn-primary{color:#fff;background-color:#007bff;border-color:#007bff;}
+    .btn-primary:hover{color:#fff;background-color:#0069d9;border-color:#0062cc;}
+    .btn-primary:focus{box-shadow:0 0 0 .2rem rgba(0,123,255,.5);}
+    .btn-primary:disabled{background-color:#007bff;border-color:#007bff;}
+    .btn-primary:not([disabled]):not(.disabled):active{color:#fff;background-color:#0062cc;border-color:#005cbf;box-shadow:0 0 0 .2rem rgba(0,123,255,.5);}
+    .text-center{text-align:center!important;}
+    /*! CSS Used from: https://expertdigitalindia.com/css/style.css */
+    ::-webkit-scrollbar{width:10px;}
+    ::-webkit-scrollbar-track{background:#f1f1f1;}
+    ::-webkit-scrollbar-thumb{background:#0097d2;}
+    ::-webkit-scrollbar-thumb:hover{background:#ff019e;}
+    button:focus,.btn:focus{outline:0 solid;-webkit-box-shadow:none;box-shadow:none;}
+    button:hover{cursor:pointer;}
+    .tw-mt-30{margin-top:30px!important;}
+    .form-control:focus{-webkit-box-shadow:none;box-shadow:none;}
+    .btn{font-size:14px;color:#fff;text-transform:uppercase;font-weight:700;padding:16px 36px;border-radius:50px;-webkit-transition:all 0.3s linear 0s;-o-transition:all 0.3s linear 0s;transition:all 0.3s linear 0s;position:relative;z-index:99;}
+    .btn-primary{border:1px solid #0794d1;background:#0794d1;}
+    .btn-primary:hover{background:#2e2c2d;border-color:#2e2c2d;}
+    .contact-us-form input[type=text],.contact-us-form input[type=phone],.contact-us-form input[type=email]{padding:16px 30px;border-radius:50px;border:1px solid #cbcbcb!important;background-color:#F7F9F8;}
+    .contact-us-form textarea{padding:16px 30px;border-radius:25px;border:1px solid #cbcbcb!important;background-color:#F7F9F8;resize:none;}
+    .contact-us-form textarea:focus,.contact-us-form textarea:active{border:1px solid #F1F1F1;}
+    /*! CSS Used from: https://expertdigitalindia.com/css/custom_css.css */
+    .contact-us-form{border:1px solid #cbcbcb;border-radius:20px 0px 20px 0px;padding:20px;background-color:#fff;}
